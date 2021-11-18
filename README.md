@@ -1,2 +1,2 @@
-# palma-store-website
+# palma-store-website-react
 Palma Store Website
