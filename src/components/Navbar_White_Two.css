@@ -1,0 +1,14 @@
+.iconbutton {
+    /* transition: transform 0.5s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out; */
+    font-weight: 600;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+    color: #000000;
+    /* text-decoration: none; */
+}
+
+/* .iconbutton:hover {
+    transform: scale(1.2);
+} */
