@@ -1,77 +1,52 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import GalleryCard3 from './GalleryImage'
-
-const ThreeImages = () => {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        position: 'relative',
-        height: '486px',
-        width: '100%',
-        alignItems: 'center',
-        flexDirection: 'column',
-      }}
-    >
-      <div
-        style={{
-          width: '1086px',
-          display: 'flex',
-          maxWidth: '1200px',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
-          height: '1336px',
-        }}
-      >
-        <div
-          style={{
-            width: '100%',
-            display: 'grid',
-            gridGap: 30,
-            gridTemplateColumns: '1fr 1fr 1fr',
-          }}
-        >
-          <GalleryCard3 
-            image_src="https://imagizer.imageshack.com/img924/8536/e1Zru5.jpg"
-            rootClassName="rootClassName"
-          >
-            <div
-            style={{
-              width: '100%',
-              height: '100%',
-              display: 'flex',
-              alignItems: 'center',
-              flexDirection: 'column',
+function ThreeImages() {
+    return (
+        <div style={{
+                display: 'flex',
+                position: 'relative',
+                height: '486px',
+                width: '100%',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexDirection: 'column',
             }}
+        >
+            <div style={{
+                    width: '1086px',
+                    display: 'flex',
+                    maxWidth: '1200px',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                    height: '1336px',
+                }}
             >
-              <div>
-                <h1
-                  style={{
-                    color: '#000000',
-                    fontSize: '24',
-                    fontWeight: '600',
-                    fontFamily: 'Rajdhani',
-                  }}
+                <div style={{
+                        width: '100%',
+                        display: 'grid',
+                        gridGap: 30,
+                        gridTemplateColumns: '1fr 1fr 1fr',
+                    }}
                 >
-                  Project Title
-                </h1>
-              </div>
+                    <div style={{ position: 'relative' }}>
+                        <Link to="/women"><img src="images/A8C0C744-4A5C-46F6-9C8D-3B59573CE182.jpeg" style={{ width: 350, height: 310, objectFit: 'cover' }}/></Link>
+                        <Link to="/women"><span style={{ position: 'absolute', top: 135, left: 140, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}>Women</span></Link>   
+                    </div>
+                    <div style={{ position: 'relative' }}>
+                        <Link to="/petsandowners"><img src="images/0A8E19A8-A8ED-48E9-B942-5C164EE487CD.jpeg" style={{ width: 350, height: 310, objectFit: 'cover' }}/></Link>
+                        <Link to="/petsandowners"><span style={{ position: 'absolute', top: 135, left: 78, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}>Pets and Owners</span></Link>    
+                    </div>
+                    <div style={{ position: 'relative' }}>
+                        <Link to="/goods"><img src="images/IMG_2710.png" style={{ width: 350, height: 310, objectFit: 'cover' }}/></Link>
+                        <Link to="/goods"><span style={{ position: 'absolute', top: 135, left: 150, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}>Goods</span></Link>    
+                    </div>
+                </div>
             </div>
-          </GalleryCard3>
-          <GalleryCard3
-            image_src="https://imagizer.imageshack.com/img923/6236/oVXpuv.jpg"
-            rootClassName="rootClassName1"
-          ></GalleryCard3>
-          <GalleryCard3
-            image_src="https://imagizer.imageshack.com/img922/777/8m78m7.png"
-            rootClassName="rootClassName3"
-          ></GalleryCard3>
         </div>
-      </div>
-    </div>
-  )
+    )
 }
 
 export default ThreeImages
+
