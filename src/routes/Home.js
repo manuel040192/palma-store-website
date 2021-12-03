@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../components/Navbar_White_Two';
 import Banner from '../components/Banner';
-import ThreeImages3 from '../components/ThreeImages3';
+import ThreeImages from '../components/ThreeImages';
 
 const HomeRoute = () => {
     return (
         <>
             <Header />
             <Banner />
-            <ThreeImages3 />       
+            <ThreeImages />       
         </>
     )
 }
