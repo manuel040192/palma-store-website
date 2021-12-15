@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Navbar_White_Two.css';
@@ -32,7 +31,7 @@ export default function RightNavbarTwoLogin() {
           </Tooltip>
           <Tooltip title="Carrito">
             <IconButton size="small" sx={{ ml: 2 }}>
-              <a href='#'><ShoppingCartIcon className='iconbutton' sx={{ width: 32, height: 32, color: '#000000' }}></ShoppingCartIcon></a>
+              <Link to='/'><ShoppingCartIcon className='iconbutton' sx={{ width: 32, height: 32, color: '#000000' }}></ShoppingCartIcon></Link>
             </IconButton>
           </Tooltip>
         </Box>
