@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './Navbar_White.css';
 import { Link } from 'react-router-dom';
-import RightNavbarTwoLogin from './RightNavMenu_Two_Login'
-import BasicMenu from './RightNavMenu_Three_Logout';
+import RightNavbarTwoLogin from './RightNavMenu_Two_Login';
 
 
 function Header() {
