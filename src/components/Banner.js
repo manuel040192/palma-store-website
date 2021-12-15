@@ -119,25 +119,4 @@ const Goods = styled.div`
     }
 `
 
-const TextOne = styled.div`
-    position: absolute;
-    top: 34%;
-    left: 6%;
-    font-family: 'Rajdhani';
-    font-weight: 500;
-    font-size: 32px;
-    letter-spacing: 2px;
-`
-
-const TextTwo = styled.div`
-    transform: rotate(90deg);
-    position: absolute;
-    top: 34%;
-    left: 17.9%;
-    font-family: 'Rajdhani';
-    font-weight: 500;
-    font-size: 32px;
-    letter-spacing: 3px;
-`
-
 export default Banner
