@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Navbar_White_Two.css';
@@ -13,7 +12,6 @@ import Tooltip from '@mui/material/Tooltip';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 import { Menu } from '@mui/material';
-import { useHistory } from 'react-router';
 
 export default function RightNavbarTwoLogout() {
     const [anchorEl, setAnchorEl] = React.useState(null);
