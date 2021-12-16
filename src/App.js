@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Routes basename='/home'>
+      <Routes basename='/'>
         <Route path=`${process.env.PUBLIC_URL}/women` element={<WomenRoute />} />
         <Route path=`${process.env.PUBLIC_URL}/petsandowners` element={<PetsAndOwnersRoute />} />
         <Route path=`${process.env.PUBLIC_URL}/goods` element={<GoodsRoute />} />
