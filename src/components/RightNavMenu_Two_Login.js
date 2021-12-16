@@ -2,7 +2,7 @@ import React from 'react';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Navbar_White_Two.css';
-// import { Link } from 'react-router-dom' //
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
