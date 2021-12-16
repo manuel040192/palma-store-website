@@ -9,11 +9,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Routes basename='/palma-store-website/'>
-        <Route path='/women' element={<WomenRoute />} />
-        <Route path='/petsandowners' element={<PetsAndOwnersRoute />} />
-        <Route path='/goods' element={<GoodsRoute />} />
-        <Route path='/' element={<HomeRoute />} />
+      <Routes basename='/home'>
+        <Route path='${process.env.PUBLIC_URL}/women' element={<WomenRoute />} />
+        <Route path='${process.env.PUBLIC_URL}/petsandowners' element={<PetsAndOwnersRoute />} />
+        <Route path='${process.env.PUBLIC_URL}/goods' element={<GoodsRoute />} />
+        <Route path='${process.env.PUBLIC_URL}/' element={<HomeRoute />} />
       </Routes>
     </div>
   );
