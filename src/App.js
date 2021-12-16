@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Routes basename='/palma-store-website-react/'>
+      <Routes basename='/palma-store-website/'>
         <Route path='/women' element={<WomenRoute />} />
         <Route path='/petsandowners' element={<PetsAndOwnersRoute />} />
         <Route path='/goods' element={<GoodsRoute />} />
