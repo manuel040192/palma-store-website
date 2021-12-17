@@ -1,5 +1,4 @@
 import React from 'react';
-import AccountCircle from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Navbar_White_Two.css';
 import { Link } from 'react-router-dom';
@@ -24,11 +23,6 @@ export default function RightNavbarTwoLogin() {
     return (
       <React.Fragment>
         <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-          <Tooltip title="Cuenta">
-            <IconButton onClick={handleClick} size="small" sx={{ ml: 2 }}>
-              <AccountCircle className='iconbutton' sx={{ width: 32, height: 32, color: '#000000' }}></AccountCircle>
-            </IconButton>
-          </Tooltip>
           <Tooltip title="Carrito">
             <IconButton size="small" sx={{ ml: 2 }}>
               <Link to='/'><ShoppingCartIcon className='iconbutton' sx={{ width: 32, height: 32, color: '#000000' }}></ShoppingCartIcon></Link>
