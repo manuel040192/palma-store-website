@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function ThreeImages() {
+function ProductTypeCovers() {
     return (
         <div style={{
                 display: 'flex',
@@ -48,5 +48,5 @@ function ThreeImages() {
     )
 }
 
-export default ThreeImages
+export default ProductTypeCovers
 
