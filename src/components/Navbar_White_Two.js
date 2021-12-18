@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './Navbar_White.css';
 import { Link } from 'react-router-dom';
-import RightNavbarTwoLogin from './RightNavMenu_Two_Login';
+import Cart from './RightNavbar_Cart';
 
 
 function Header() {
@@ -17,7 +17,7 @@ function Header() {
                 <p><Link to='/'>PALMA</Link></p>
             </Logo>
             <RightNavMenu>
-                <RightNavbarTwoLogin />
+                <Cart />
             </RightNavMenu>
         </Container>
     )
