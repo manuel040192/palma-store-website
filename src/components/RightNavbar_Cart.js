@@ -1,6 +1,6 @@
 import React from 'react';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import './Navbar_White_Two.css';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
