@@ -1,6 +1,6 @@
 import React from 'react';
+import Header from '../components/Navbar';
 import PetsAndOwners from '../components/Gallery_Pets_Owners';
-import Header from '../components/Navbar_White_Two';
 
 const PetsAndOwnersRoute = () => {
     return (
